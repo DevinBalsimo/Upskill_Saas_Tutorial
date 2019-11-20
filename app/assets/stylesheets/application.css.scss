@@ -17,6 +17,18 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+body, .navbar {
+    // Gradient provided by @_ighosh at uigradient.com
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar {
+    //This will remove the white space around the nav bar to style the homepage more fluidly
+    border: none;
+}
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
