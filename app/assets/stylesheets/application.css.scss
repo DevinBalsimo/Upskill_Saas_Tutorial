@@ -16,7 +16,7 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-@import 'font-awesome-sprockets';
+@import 'font-awesome-sprockets';    
 @import 'font-awesome';
 
 .home-callout, .navbar {
@@ -30,6 +30,11 @@
 .navbar {
     //This will remove the white space around the nav bar to style the homepage more fluidly
     border: none;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 // Typology
