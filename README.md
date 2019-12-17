@@ -9,3 +9,6 @@ $ sudo yum install postgresql-devel
 
 Created a new git branch for adding web pages and layout. This allows the user to "Switch to a new branch 'pages_and_layout'"
 $ git checkout -b pages_and_layout
+
+
+This is test text in order to push a git commit
