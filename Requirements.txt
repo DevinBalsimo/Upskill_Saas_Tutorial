@@ -1,0 +1,10 @@
+
+This text file should be used for psedocode.
+
+just use capitilzed headers with bullet point underneath, exampled in the following.
+
+
+MEMBERSHIPS
+* User should see a link for the basic plan on the home page
+* User should see a link for the pro plan on the home page
+* link for the basic plan should connect to Devise's User_Sign_Up
