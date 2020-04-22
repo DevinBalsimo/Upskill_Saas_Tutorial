@@ -85,7 +85,23 @@ h1, h2, h3 {
     margin-top: 30px;
 }
 
-.btn-primary {
+
+.btn-primary, .btn-lg {
     background-color: #FFD200;
     border: none;
 }
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #F7971E;
+    border-color: #204d74;
+    &:active {
+        background-color: #FFD200;
+    }
+    &:visited {
+        background-color: #FFD200;
+    }
+}
+
+
+
