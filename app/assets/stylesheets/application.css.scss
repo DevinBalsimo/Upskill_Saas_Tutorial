@@ -19,6 +19,7 @@
 @import 'font-awesome-sprockets';    
 @import 'font-awesome';
 
+// Home Page Styles
 .home-callout, .navbar {
     // Gradient provided by @_ighosh at uigradient.com
     background: #F7971E;  /* fallback for old browsers */
@@ -46,8 +47,17 @@
     background-color: #FFD200;
   }
 }
-.alert-notice {
-    display: none;
+.flash-container {
+    position: absolute;
+    width: 100%;
+    border-color: white;
+}
+
+.alert-notice, .alert-alert {
+    text-align: center;
+    margin-top: -14px;
+    opacity: 50%;
+    border-color: white;
 }
 
 // Typology
@@ -75,4 +85,7 @@ h1, h2, h3 {
     margin-top: 30px;
 }
 
-
+.btn-primary {
+    background-color: #FFD200;
+    border: none;
+}
